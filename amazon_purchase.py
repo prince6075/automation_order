@@ -34,12 +34,12 @@ buy.click()
 time.sleep(4)
 
 sign=driver.find_element(By.XPATH,"//*[@id='ap_email']")
-sign.send_keys("9798453538")
+sign.send_keys("98745612241")
 driver.find_element(By.XPATH,"//*[@id='continue']").click()
 time.sleep(4)
 
 password=driver.find_element(By.XPATH,"//*[@id='ap_password']")
-password.send_keys("A9798453538")
+password.send_keys("A9784561393")
 driver.find_element(By.XPATH,"//*[@id='signInSubmit']").click()
 time.sleep(4)
 
@@ -60,7 +60,7 @@ time.sleep(10)
 # pop
 driver.switch_to.frame("ApxSecureIframe")
 card_number=driver.find_element(By.XPATH,"/html/body/div[3]/div/div/div/div/div/div/div[2]/div/div/div/div/form/div[1]/div[2]/div/div[1]/div[2]/div/div[1]/div/input")
-card_number.send_keys("4389760021520665")
+card_number.send_keys("4457892265599")
 time.sleep(4)
 
 nickname=driver.find_element(By.XPATH,"/html/body/div[3]/div/div/div/div/div/div/div[2]/div/div/div/div/form/div[1]/div[2]/div/div[2]/div[2]/input")
@@ -71,12 +71,12 @@ time.sleep(4)
 
 expiraydate=driver.find_element(By.XPATH,"/html/body/div[3]/div/div/div/div/div/div/div[2]/div/div/div/div/form/div[1]/div[2]/div/div[3]/div[2]/div[1]/span[1]/select")
 drop=Select(expiraydate)
-drop.select_by_value("12")
+drop.select_by_value("10")
 time.sleep(4)
 
 expiryear=driver.find_element(By.XPATH,"/html/body/div[3]/div/div/div/div/div/div/div[2]/div/div/div/div/form/div[1]/div[2]/div/div[3]/div[2]/div[1]/span[3]/select")
 sel=Select(expiryear)
-sel.select_by_value("2028")
+sel.select_by_value("2029")
 time.sleep(4)
 
 enter_card_detail=driver.find_element(By.XPATH,"/html/body/div[3]/div/div/div/div/div/div/div[2]/div/div/div/div/form/div[2]/div/span[2]/span/input")
